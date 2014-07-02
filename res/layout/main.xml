@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:id="@+id/root"
+    android:background="@drawable/bg_lancher"
+    android:layout_gravity="center" >
+    
+<!--     <ImageButton 
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_lancher" /> -->
+
+    <!--
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="500dip"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:clipChildren="false" >
+    </android.support.v4.view.ViewPager>
+    -->
+
+    <com.vlctech.metroui.JazzyViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="500dip"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:clipChildren="false" >
+    </com.vlctech.metroui.JazzyViewPager>
+
+    <!--
+         <com.vlctech.metroui.dynamic.view.MetroViewScroll
+        android:id="@+id/scroolView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:focusable="true"
+            android:focusableInTouchMode="true"
+        android:scrollbarAlwaysDrawHorizontalTrack="false" >
+    -->
+
+
+    <!--
+             <com.coship.dynamic.view.PageView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.coship.dynamic.view.PageView>
+    -->
+
+
+    <!--
+             <com.vlctech.metroui.dynamic.view.AutoFillMetroView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_centerVertical="true" >
+        </com.vlctech.metroui.dynamic.view.AutoFillMetroView>
+    -->
+    <!-- </com.vlctech.metroui.dynamic.view.MetroViewScroll> -->
+
+    <com.vlctech.metroui.FocusBorderView
+        android:id="@+id/box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

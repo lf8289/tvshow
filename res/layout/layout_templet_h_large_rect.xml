@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlctech.metroui.dynamic.view.ScaleViewPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.vlctech.metroui.dynamic.view.AsyncImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@null"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/proxy"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:padding="0.0dip" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_gravity="bottom"
+            android:background="#96000000"
+            android:gravity="left|center"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:singleLine="true"
+            android:text="hello"
+            android:textColor="@android:color/white"
+            android:textSize="20.0sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</com.vlctech.metroui.dynamic.view.ScaleViewPanel>
